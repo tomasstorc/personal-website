@@ -11,8 +11,11 @@ const Menu = () => {
           <Navbar.Brand href="#home">
             <img src="/logo.png" alt="" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="bg-white"
+          />
+          <Navbar.Collapse id="basic-navbar-nav" className="white">
             <div>
               <Nav className="me-auto">
                 <Nav.Link href="#home">About me</Nav.Link>
@@ -24,7 +27,7 @@ const Menu = () => {
             </div>
           </Navbar.Collapse>
 
-          <NavDropdown variant="light" title="EN" id="basic-nav-dropdown">
+          <NavDropdown bg="white" title="EN" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">EN</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.1">CZ</NavDropdown.Item>
           </NavDropdown>
