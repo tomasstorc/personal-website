@@ -25,10 +25,10 @@ const Menu = () => {
             </div>
           </Navbar.Collapse>
 
-          <NavDropdown bg="white" title="EN" id="basic-nav-dropdown">
+          {/* <NavDropdown bg="white" title="EN" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">EN</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.1">CZ</NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </Container>
       </Navbar>
 

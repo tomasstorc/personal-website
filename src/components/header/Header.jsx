@@ -12,7 +12,14 @@ const Header = () => {
             Contact me
           </Button>{" "}
           <Button className="px-3 py-2" variant="outline-light">
-            Download CV
+            <a
+              href="https://tstorccvsa.blob.core.windows.net/cvfile/cv_en.pdf"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
           </Button>{" "}
         </div>
         <div className="image">
