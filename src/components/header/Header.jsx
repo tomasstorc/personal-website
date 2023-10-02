@@ -13,12 +13,13 @@ const Header = () => {
           </Button>{" "}
           <Button className="px-3 py-2" variant="outline-light">
             <a
+              style={{ color: "white" }}
               href="https://tstorccvsa.blob.core.windows.net/cvfile/cv_en.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"
             >
-              Download CV
+              Get CV
             </a>
           </Button>{" "}
         </div>
