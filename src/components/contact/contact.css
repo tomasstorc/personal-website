@@ -21,6 +21,7 @@
 img {
   max-width: 100%;
   height: auto;
+  margin-right: 0.3rem;
 }
 
 .contactButton a {
