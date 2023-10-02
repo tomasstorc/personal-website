@@ -17,7 +17,6 @@ const Experience = () => {
                 <h2>
                   {e.company} - {e.title}
                 </h2>
-                <p>{e.description}</p>
               </div>
             </div>
           );
