@@ -18,11 +18,9 @@ const Menu = () => {
           <Navbar.Collapse id="basic-navbar-nav" className="white">
             <div>
               <Nav className="me-auto">
-                <Nav.Link href="#home">About me</Nav.Link>
-                <Nav.Link href="#features">Work Experience</Nav.Link>
-                <Nav.Link href="#pricing">Certifications</Nav.Link>
-                <Nav.Link href="#pricing">Skills</Nav.Link>
-                <Nav.Link href="#pricing">Contact</Nav.Link>
+                <Nav.Link href="#experience">Work Experience</Nav.Link>
+                <Nav.Link href="#certifications">Certifications</Nav.Link>
+                <Nav.Link href="#skills">Skills</Nav.Link>
               </Nav>
             </div>
           </Navbar.Collapse>

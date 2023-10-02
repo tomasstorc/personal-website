@@ -1,0 +1,35 @@
+.header-box {
+  margin-top: 5rem;
+  height: 90vh;
+}
+
+.header-h1 {
+  border-bottom: 2px solid white;
+  text-align: left;
+  padding-bottom: 2px;
+}
+
+.header-text {
+  color: white;
+  text-align: left;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header-container div {
+  flex-basis: 45%;
+}
+
+@media (max-width: 768px) {
+  .header-container div {
+    flex-basis: 100%;
+  }
+  .header-box {
+    margin-top: 5rem;
+    height: auto;
+  }
+}

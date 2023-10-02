@@ -1,0 +1,54 @@
+.certification-box {
+  margin: 2rem;
+}
+
+.certification-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cert-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.cert {
+  border-radius: 22px;
+  flex: 0 0 29%;
+  padding: 1rem;
+  text-align: left;
+  padding-left: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(
+    90deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.31) 120.12%
+  );
+  box-shadow: 0px 4px 8px 0px #366ea9;
+}
+
+.cert-title {
+  color: #0477cf;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .cert {
+    flex-basis: 100%;
+  }
+}

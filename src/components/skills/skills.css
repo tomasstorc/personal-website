@@ -1,0 +1,18 @@
+.skills-box {
+  margin: 2rem;
+}
+
+.skills-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2rem;
+}
+
+.skills-image {
+  max-width: 100%;
+  height: auto;
+}

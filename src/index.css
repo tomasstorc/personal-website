@@ -90,3 +90,10 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
 }
+
+.btn {
+  width: fit-content;
+  border-radius: 38px;
+  margin: 0.7rem;
+  box-shadow: 0px 4px 4px 0px rgba(13, 69, 129, 0.44);
+}
